@@ -1,3 +1,3 @@
 # PYTHON
 
-Here we will have all Python projects.
+Here we will have all Python projects!
