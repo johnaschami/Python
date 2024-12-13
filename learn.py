@@ -23,4 +23,38 @@ print(phrase.replace("AI", "Lab"))
 
 # working with NUMBERS 
 
+print(2)
+print(-3.87)
+print(3.6 )
+print((3 + 23) * 444)
+print(10 % 3) # modulus operator (giving the reminder of 10/3)
+
+my_num = 8 
+print(str(my_num))
+print(pow(4, 6))
+print(max(2, 6))
+print(round(3.9))
+
+# input
+kaka = input("what is your name? ")
+print("Hello brother " + kaka + " how are you doing?")
+
+
+# LISTS []
+# most of the time we will deal with a lot of data, so we need to find a way to manage and organize these data. List is one of the ways to achieve this. 
+
+friends = ["Jerry", "Faustin", "Baraka"]
+friends[2] = "Barakaaa"
+lucky_numbers = [3, 7, 8, 14, 33, 40]
+
+print(friends)
+print(friends[0:1])
+
+friends.extend(lucky_numbers)
+friends.append("Chuwa")
+
+
+
+
+
 
