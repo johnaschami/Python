@@ -54,6 +54,42 @@ friends.extend(lucky_numbers)
 friends.append("Chuwa")
 
 
+#TUPLE ()
+# they are immutable - can't be changed/modified 
+# you when you wanna store data that can't be changed. 
+coordinates = (4, 5)
+
+# FUNCTIONS - a collection of code that perform a specific task. 
+
+# we write a function that say hi to the user 
+def say_hi():
+    print("Hello User")
+
+# to execute this function we just call it by name 
+say_hi()
+
+# parameters & arguments 
+def say_hii(name, age):
+    print("Hello " + name + ", you are " + age)
+
+say_hii("Mike", "35")
+
+# RETURN STATEMENT 
+def cube(num):
+    return num * num * num
+
+cube(3)
+
+# IF STATEMENT 
+is_male = True
+is_tall = True 
+
+if is_male or is_tall:
+    print("You are a male or tall or both")
+else:
+    print("You are neither male nor tall")
+
+
 
 
 

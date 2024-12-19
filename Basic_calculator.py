@@ -9,3 +9,9 @@ result = number1 + number2
 print(result)
 
 
+# we can also try to change European stair no to US floor number 
+
+inp = input("What is the number of the floor? ")
+ufl = int(inp) + 1
+print("US Floor", ufl)
+
