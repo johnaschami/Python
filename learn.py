@@ -65,14 +65,23 @@ coordinates = (4, 5)
 def say_hi():
     print("Hello User")
 
-# to execute this function we just call it by name 
+# to execute this function we just call it by name (you need to invoke/call the code - you store then reuse it)
 say_hi()
 
-# parameters & arguments 
+# parameters & arguments (parameters are like handles and arguments are actual values you pass into them)
 def say_hii(name, age):
     print("Hello " + name + ", you are " + age)
 
 say_hii("Mike", "35")
+
+
+def addtwo(ab, ba):
+    added = ab + ba
+    return added
+
+x = addtwo(3, 5)
+print(x)
+
 
 # RETURN STATEMENT 
 def cube(num):
@@ -90,6 +99,9 @@ else:
     print("You are neither male nor tall")
 
 
+
+# 4 PATTERNS OF CODE  
+# Sequential # Conditional # Iteration # Store and Reuse (eg. functions)
 
 
 
