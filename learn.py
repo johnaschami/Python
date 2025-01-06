@@ -150,6 +150,18 @@ for thing in [2, 45, 78, 85, 45]:
     print(zork, thing)
 print("After", zork)
 
+# Summing in Loop
+
+zork = 0
+print("Before", zork)
+for thing in [34, 2, 56, 43, 67]:
+    zork = zork + thing
+    print(zork, thing)
+print("After", zork)
+
+
+
+
 
 
 
