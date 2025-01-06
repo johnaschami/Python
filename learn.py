@@ -107,4 +107,30 @@ else:
 
 # LOOPS AND ITERATIONS 
 
+# we use WHILE as a keyword 
+n = 5 
+
+while n > 0 :
+    print(n)
+    n = n -1 
+print('wow')
+
+# Infinite Loop - doesn't end. To get out of the loop we use BREAK statement.  
+
+# Definitive Loop
+
+for i in [5, 4, 3, 2, 1]:
+    print(i)
+print('wow')
+
+friends = ["Yoyo", "Yaya", "Yeye"]
+for friend in friends:
+    print("Happy New Year", friend)
+print("Done")
+
+
+
+
+
+
 
