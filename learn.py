@@ -123,10 +123,32 @@ for i in [5, 4, 3, 2, 1]:
     print(i)
 print('wow')
 
+# iteration variable (looking for In) - moves through all of the values in the sequence
 friends = ["Yoyo", "Yaya", "Yeye"]
 for friend in friends:
     print("Happy New Year", friend)
 print("Done")
+
+# smart loop - finding the largest value 
+
+largest_so_far = -1
+print("Before", largest_so_far)
+for the_num in [23, 4, 74, 12, 58]:
+    if the_num > largest_so_far:
+        largest_so_far = the_num
+    print(largest_so_far, the_num)
+
+print("After", largest_so_far)
+
+
+# Counting in a loop
+
+zork = 0
+print("Before", zork)
+for thing in [2, 45, 78, 85, 45]:
+    zork = zork + 1 
+    print(zork, thing)
+print("After", zork)
 
 
 
