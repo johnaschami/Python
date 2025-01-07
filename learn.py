@@ -160,9 +160,49 @@ for thing in [34, 2, 56, 43, 67]:
 print("After", zork)
 
 
+# finding the average in a loop
+
+count = 0
+sum = 0
+print("Before", count, sum)
+for value in [34, 23, 56, 12, 78]:
+    count = count + 1
+    sum = sum + value
+    print(count, sum, value)
+print("After", count, sum, sum / count)
 
 
+# Filtering in a loop ( we use IF statement in the loop to filter)
 
+print("Before")
+for value in [34, 23, 56, 78, 12]:
+    if value > 20:
+        print("Large number", value)
+print("After")
+
+
+# Search using a Boolean Variable 
+
+found = False
+print("Before")
+for value in [23, 45, 67, 43, 12]:
+    if value == 43:
+        found = True
+    print(found, value)
+print("After", found)
+
+
+# Finding the smallest value
+
+smallest = None
+print("Before")
+for value in [9, 43, 4, 23, 67]:
+    if smallest is None:
+        smallest = value 
+    elif value < smallest:
+        smallest = value 
+    print(smallest, value)
+print("After", smallest)
 
 
 
