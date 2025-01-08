@@ -29,7 +29,25 @@ print("Result:", result)
 # 2. Temperature Converter (Easy)
 # Create a program to: Convert a temperature from Fahrenheit to Celsius or vice versa. Ask the user which conversion they want (F to C or C to F) and then perform it.
 
+# Step 1: Ask the user for the conversion type
+conversion_type = input("Enter conversion type (F to C or C to F): ").strip()
 
+# Step 2: Ask the user for the temperature value
+temperature = float(input("Enter the temperature: "))
+
+# Step 3: Perform the conversion
+if conversion_type == "F to C":
+    converted_temperature = (temperature - 32) * 5 / 9
+    print(f"{temperature}°F is equal to {converted_temperature:.2f}°C")
+elif conversion_type == "C to F":
+    converted_temperature = (temperature * 9 / 5) + 32
+    print(f"{temperature}°C is equal to {converted_temperature:.2f}°F")
+else:
+    print("Invalid conversion type. Please enter 'F to C' or 'C to F'.")
+
+
+
+# 3. 
 
 
 
