@@ -17,13 +17,23 @@ elif operation == "/":
     if num2 != 0:
         result = num1 / num2
     else:
-        result = "Error: Cannot divide by zero"
+        result = "Error: Cannot divide by zero"    
 else:
     result = "Invalid operator"
 
 # Step 3: Display the result
 print("Result:", result)
 
+
+# While this works, it can be confusing if you plan to use the result later for calculations. Consider separating error messages from numeric results to avoid mixing data types.
+if num2 == 0:
+        print("Error: You cannot divide by zero")
+        result = None  # Assign None or handle error separately
+    else:
+        result = num1 / num2
+else:
+    print("Invalid operator")
+    result = None  # Assign None if the operator is invalid
 
 
 # 2. Temperature Converter (Easy)
