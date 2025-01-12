@@ -21,7 +21,7 @@ print(phrase[0])
 print(phrase.index("AI"))
 print(phrase.replace("AI", "Lab"))
 
-# working with NUMBERS 
+# working with NUMBERS
 
 print(2)
 print(-3.87)
