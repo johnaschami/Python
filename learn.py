@@ -208,3 +208,59 @@ print("After", smallest)
 
 
 
+# PART 2 - DATA STRUCTURES 
+
+# STRINGS
+
+# Looking inside strings 
+
+fruit = "banana"
+letter = fruit[1]
+print(letter)
+
+w = 3
+x = fruit[4 - w]
+print(x)
+
+# Strings have lenght (Len Function)
+
+fruit = "banana"
+xx = len(fruit)
+print(xx)
+
+# Looping through Strings
+
+fruit = "banana"
+for letter in fruit:
+    print(letter)
+#OR            # always use first option - simpler ways are better ways
+index = 0
+while index < len(fruit):
+    letter = fruit[index]
+    print(letter)
+    index = index + 1
+
+fruit = "banana"
+index = 0
+while index < len(fruit):
+    letter = fruit[index]
+    print(index, letter)
+    index = index + 1 
+
+
+# Looping and Counting
+
+word = "banana"
+count = 0
+for letter in word:
+    if letter == 'a':
+        count = count + 1
+print(count)
+
+# Slicing Strings
+
+s = "Monty Python"
+print(s[0:4])
+print(s[6:20])
+print(s[:10])
+print(s[2:])

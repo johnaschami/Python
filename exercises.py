@@ -26,7 +26,7 @@ print("Result:", result)
 
 
 # While this works, it can be confusing if you plan to use the result later for calculations. Consider separating error messages from numeric results to avoid mixing data types.
-if num2 == 0:
+    if num2 == 0:
         print("Error: You cannot divide by zero")
         result = None  # Assign None or handle error separately
     else:
@@ -40,7 +40,7 @@ else:
 # Create a program to: Convert a temperature from Fahrenheit to Celsius or vice versa. Ask the user which conversion they want (F to C or C to F) and then perform it.
 
 # Step 1: Ask the user for the conversion type
-conversion_type = input("Enter conversion type (F to C or C to F): ").strip()
+conversion_type = input("Enter conversion type (F to C or C to F): ").strip()    # The .strip() method in Python is used to remove any leading and trailing whitespace (spaces, tabs, or newline characters) from a string.
 
 # Step 2: Ask the user for the temperature value
 temperature = float(input("Enter the temperature: "))
@@ -57,7 +57,8 @@ else:
 
 
 
-# 3. 
+# 3.  Basic Password Strength Checker (Medium)
+# Write a program to: Take a password as input. Check if it’s strong by meeting these conditions: 1. At least 8 characters. 2. Contains both uppercase and lowercase letters. 3. Contains at least one number. And use conditional statements to give feedback (e.g., “Weak password: no numbers”).
 
 
 
