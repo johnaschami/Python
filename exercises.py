@@ -26,6 +26,7 @@ print("Result:", result)
 
 
 # While this works, it can be confusing if you plan to use the result later for calculations. Consider separating error messages from numeric results to avoid mixing data types.
+
     if num2 == 0:
         print("Error: You cannot divide by zero")
         result = None  # Assign None or handle error separately

@@ -264,3 +264,74 @@ print(s[0:4])
 print(s[6:20])
 print(s[:10])
 print(s[2:])
+
+# String Concatenation
+a = "Hello"
+b = a + " " + "There"         # "" help to add a space
+print(b)
+
+# Using "in" as a logical operator 
+
+fruit = "mango"
+"o" in fruit
+
+if "o" in fruit:
+    print("I love mangoes")
+
+# String Comparison
+
+if word == "mango":
+    print("All right, mangoes")
+
+# STRING LIBRARY
+greet = "Hello Bob"
+zap = greet.lower()
+print(greet)
+print(zap)
+
+# Methods in class string 
+# use "dir" to check them 
+
+# Find operator (search string)
+
+fruit = "kiwi"
+pos = fruit.find("wi")
+print(pos)
+
+# upper and lowercase
+
+caseeee = fruit.upper()
+print(caseeee)
+
+# search and replace 
+
+nstr = greet.replace("Bob", "Jane")
+print(nstr)
+
+# remove a whitespace 
+
+greet = " Hello Bob "
+greet.lstrip()
+greet.rstrip()
+greet.strip()
+
+# prefixes
+
+line = "Please have a nice day"
+line.startswith("Please")
+line.startswith("p")
+
+# Parsing and Extracting (slicing)
+
+# From stephen.marquarde@uct.ac.za Sat Jan 5 09:16:14 2009 
+# we need only the email alias
+
+data = "From stephen.marquarde@uct.ac.za Sat Jan 5 09:16:14 2009"
+apos = data.find("@")
+print(apos)
+
+dpos = data.find(" ", apos)  # we start with empty space because we ask ourselves where is the next empty space, after apos. 
+print(dpos)
+
+alias_email = data[apos+1 : dpos]
+print(alias_email)
