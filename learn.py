@@ -208,7 +208,7 @@ print("After", smallest)
 
 
 
-# PART 2 - DATA STRUCTURES 
+ 
 
 # STRINGS
 
@@ -337,14 +337,7 @@ alias_email = data[apos+1 : dpos]
 print(alias_email)
 
 str = "X-DSPAM-Confidence: 0.8475 "
-
-num_1 = str.find(":")
-print(num_1)
-
-num_2 = str.find(" ", num_1 + 1)
-print(float(num_2))
-
-print("Floating point number:", num_2)
+# extract and find the floaring number 
 
 
 
