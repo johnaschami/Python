@@ -62,6 +62,10 @@ else:
 # Write a program to: Take a password as input. Check if it’s strong by meeting these conditions: 1. At least 8 characters. 2. Contains both uppercase and lowercase letters. 3. Contains at least one number. And use conditional statements to give feedback (e.g., “Weak password: no numbers”).
 
 
+password = input("What is your new password?: ")
+
+if len(password) == 8:
+    print("Voila")
 
 
 
