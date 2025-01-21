@@ -67,5 +67,8 @@ password = input("What is your new password?: ")
 if len(password) == 8:
     print("Voila")
 
+# 4. Shopping Discount Calculator (Medium)
+# Create a program that: Asks the user for the total amount of a purchase. Applies a discount based on these conditions: Purchases above $100 get a 10% discount. Purchases above $200 get a 20% discount. Print the discounted price.
+
 
 
