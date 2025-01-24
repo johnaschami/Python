@@ -222,7 +222,7 @@ w = 3
 x = fruit[4 - w]
 print(x)
 
-# Strings have lenght (Len Function)
+# Strings have length (Len Function)
 
 fruit = "banana"
 xx = len(fruit)
