@@ -41,7 +41,7 @@ print("Hello brother " + kaka + " how are you doing?")
 
 
 # LISTS []
-# most of the time we will deal with a lot of data, so we need to find a way to manage and organize these data. List is one of the ways to achieve this. 
+# most of the time we will deal with a lot of data, so we need to find a way to manage and organize these data. List is one of the ways to achieve this. Lists are mutable. 
 
 friends = ["Jerry", "Faustin", "Baraka"]
 friends[2] = "Barakaaa"

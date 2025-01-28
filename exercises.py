@@ -73,6 +73,8 @@ if len(password) == 8:
 # 5. Palindrome Checker for Words (Medium)
 # Write a program to: Ask the user to input a word. Check if it is a palindrome (reads the same forward and backward).  
 
+# 6. 
+
 
 
 
