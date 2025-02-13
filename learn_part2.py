@@ -1,6 +1,6 @@
 # PART 2 - DATA STRUCTURES
 
-# 1. Opening a File - before we can read the contents of the file we must tell python whihc file we are going to work with and what we will be doing wiht the file. This is done with the: open() function
+# 1. Opening a File - before we can read the contents of the file we must tell python which file we are going to work with and what we will be doing with the file. This is done with the: open() function
 # Open() returns a "file handle" - a variable used to perform operations on the file
 # Similar to "File -> Open" in a Word Processor 
 # handle = open("filename", "mode(read or write)"") - if we leave without mode then it's read by default
