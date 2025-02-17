@@ -115,6 +115,12 @@ while n > 0 :
     n = n -1 
 print('wow')
 
+n = 20
+while n > 0:
+    print(n)
+    n -= 2  # Decreasing n to avoid infinite loop
+print("Done!")
+
 # Infinite Loop - doesn't end. To get out of the loop we use BREAK statement.  
 
 # Definitive Loop
@@ -337,7 +343,7 @@ alias_email = data[apos+1 : dpos]
 print(alias_email)
 
 str = "X-DSPAM-Confidence: 0.8475 "
-# extract and find the floaring number 
+# extract and find the floating number 
 
 
 
