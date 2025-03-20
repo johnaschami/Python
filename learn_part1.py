@@ -39,6 +39,53 @@ print(round(3.9))
 kaka = input("what is your name? ")
 print("Hello brother " + kaka + " how are you doing?")
 
+# a user can input letter or symbols in age example instead of numbers. We can limit this in two ways!
+
+#solution1: we can use - .isdigit() to validate age - this will check if a string contains only numeric digits
+
+# Ask for user details
+city = input("Where were you born? ")
+name = input("What is your name? ")
+
+# Validate age input
+while True:
+    age = input("How old are you? ")
+    if age.isdigit():  # Check if age is a number
+        break  # If valid, exit the loop
+    else:
+        print("Invalid age. Please enter a number.")  # Ask again
+
+# Output user details
+customer_id = name + " is from " + city + ", he is " + age + " years old."
+print(customer_id)
+
+
+# solution2: for a better validation we can convert the input to an integer and catch erros using try-except.
+
+# Ask for user details
+city = input("Where were you born? ")
+name = input("What is your name? ")
+
+# Validate age input
+while True:
+    try:
+        age = int(input("How old are you? "))  # Convert input to integer
+        if age > 0:  # Age must be positive
+            break
+        else:
+            print("Age must be a positive number.")
+    except ValueError:  # If input is not a number
+        print("Invalid input. Please enter a numeric age.")
+
+# Output user details
+customer_id = name + " is from " + city + ", he is " + str(age) + " years old."
+print(customer_id)
+
+
+# Why use int(input()) instead of .isdignity()? 
+## isdignity() does not allow negative numbers (-5) or decimals (25.5)
+## int(input()) ensures age is an actual number, and try-except prevents crashes if the input is invalid. 
+
 
 # LISTS []
 # most of the time we will deal with a lot of data, so we need to find a way to manage and organize these data. List is one of the ways to achieve this. Lists are mutable. 
