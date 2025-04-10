@@ -173,7 +173,7 @@ print('wow')
 n = 20
 while n > 0:
     print(n)
-    n -= 2  # Decreasing n to avoid infinite loop
+    n -= 2  # Decreasing n to avoid infinite loop (n = n -2)
 print("Done!")
 
 # Infinite Loop - doesn't end. To get out of the loop we use BREAK statement.  
