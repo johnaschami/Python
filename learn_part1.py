@@ -55,6 +55,14 @@ while True:
     else:
         print("Invalid age. Please enter a number.")  # Ask again
 
+# or a different way
+user_input = input("Enter your age: ")
+if user_input.isdigit():
+    print("Cool, your age is", int(user_input))
+else:
+    print("Oops! That’s not a number.")
+
+
 # Output user details
 customer_id = name + " is from " + city + ", he is " + age + " years old."
 print(customer_id)
